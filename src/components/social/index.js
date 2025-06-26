@@ -1,6 +1,6 @@
 import './index.css'
 
-const SocialLinks = () => {
+const social = () => {
   const socialLinks = [
     {
       name: "Facebook",
@@ -133,4 +133,4 @@ const SocialLinks = () => {
   );
 };
 
-export default SocialLinks;
+export default social;
