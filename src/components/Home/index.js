@@ -1,5 +1,5 @@
 import Navigation from ".././Navigation";
-import SocialLinks from ".././social";
+import social from ".././social";
 
 import './index.css'
 
