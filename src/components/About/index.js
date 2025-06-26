@@ -1,5 +1,5 @@
 import Navigation from ".././Navigation";
-import SocialLinks from ".././SocialLinks";
+import SocialLinks from ".././social";
 
 import './index.css'
 const About = () => {
