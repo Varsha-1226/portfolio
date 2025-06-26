@@ -1,0 +1,90 @@
+.bg{
+    height: 100vh;
+    background-size: cover;
+    width: 1920;
+height: 1080;
+top: -1444px;
+left: 1121px;
+
+}
+.nav{
+    align-self: flex-end;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.detail{
+    background-image: url('https://cdn.builder.io/api/v1/image/assets/TEMP/be33db9d20b82e3c659f29fbf6a0ed281e80a3b1');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    height: 20vh;
+ display: flex;
+    flex-direction: row; 
+    padding-left: 60px;  
+    padding-top: 60px;
+    padding-bottom: 60px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 40px;
+   
+}
+.social{
+    align-self: center;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+
+}
+.name-wave{
+    display: flex;
+    flex-direction: row;
+}
+.wave{
+    width: 50;
+height: 50;
+top: 401px;
+left: 556px;
+
+}
+
+.profile-img{
+    width: 79.44921875;
+height: 72.418212890625;
+top: 192px;
+left: 1100px;
+border-top-left-radius: 170px;
+border-top-right-radius: 300px;
+border-bottom-right-radius: 300px;
+border-bottom-left-radius: 800px;
+
+}
+
+.download-button{
+    width: 480;
+height: 60.000003814697266;
+top: 649px;
+left: 269px;
+border-radius: 10px;
+margin-right: 10px;
+background-color: orangered;
+color: white;
+border-width: 0;
+
+}
+.get-touch-button{
+    width: 500;
+height: 100;
+top: 649px;
+left: 269px;
+border-radius: 10px;
+background-color: black;
+color: white;
+border-width: 0;
+
+}

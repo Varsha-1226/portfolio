@@ -1,0 +1,23 @@
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.social{
+    align-self: center;
+}
+.para{
+    font-family: Segoe UI;
+font-weight: 300;
+font-size: 15px;
+line-height: 100%;
+letter-spacing: 0%;
+
+}
+.text{
+    padding: 80px;
+}
+.email{
+    align-self: flex-end;
+}

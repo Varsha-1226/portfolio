@@ -1,0 +1,61 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px 100px;
+}
+.name-box{
+    display: flex;
+  flex-direction: row;
+  margin-right: 40px;
+}
+
+.nav-content{
+    align-self: center;
+    display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 500px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.logo-small{
+    width: 35px;
+height: 40px;
+margin-top: 18px;
+left: 112px;
+margin-right: 5px;
+
+}
+.head
+{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-links li {
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.theme-toggle {
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.email{
+    align-self: flex-end;
+}
