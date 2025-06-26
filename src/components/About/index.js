@@ -1,5 +1,5 @@
 import Navigation from ".././Navigation";
-import SocialLinks from ".././SocialLinks";
+import social from ".././social";
 
 import './index.css'
 const About = () => {
@@ -10,7 +10,7 @@ const About = () => {
 
       <main className="content">
         <div className="social">
-            <SocialLinks />
+            <social />
         </div>
           <div className="text">
             <h1>This is it. ;)</h1>
