@@ -26,8 +26,8 @@ const Home = () => {
           {/* Left Column - Content */}
           <div className="info">
             {/* Hello Message */}
-            <div className="detail">
-                  <h1 className="helo">Hello!</h1>
+            <div>
+                  <div className="detail">Hello!</div>
             </div>
 
             {/* Name and Wave */}
@@ -109,23 +109,23 @@ const Home = () => {
           <div className="order-1 lg:order-2 flex justify-center lg:justify-end">
             <div className="relative w-64 h-64 lg:w-80 lg:h-80 xl:w-96 xl:h-96">
               {/* Yellow Background Circle */}
-              <div className="absolute inset-0 bg-hero-yellow rounded-full transform rotate-12 shadow-2xl"></div>
+              <div className="absolute inset-0 bg-hero-yellow rounded-full transform rotate-12 shadow-2xl">
 
               {/* Profile Image */}
-              <div className="">
+              <div className="bg-profile">
                 <img
-                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/0da2fb3ac0726318557abdf40ab19950657b9c0a"
+                  src="https://res.cloudinary.com/dfnymwxin/image/upload/v1750958640/Hero_Image_noddxh.png"
                   alt="Anish Kumar Sinha"
                   className="profile-img"
                 />
               </div>
+              </div>
             </div>
           </div>
-          <div className="flex flex-col items-center space-y-4">
-          <div className="email-text">
+          <div className="email-box">
+          <div className="email">
             sinhaanishkumar@outlook.com
           </div>
-          <div className="w-px h-16 lg:h-20 bg-black"></div>
         </div>
       </main>
     </div>

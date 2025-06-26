@@ -20,4 +20,5 @@ letter-spacing: 0%;
 }
 .email{
     align-self: flex-end;
+    transform: rotate(270deg);
 }
