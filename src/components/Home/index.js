@@ -19,7 +19,7 @@ const Home = () => {
       {/* Main Content */}
       <main className="content">
         <div className="social">
-            <SocialLinks />
+            <social />
         </div>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 lg:gap-16 items-center">
